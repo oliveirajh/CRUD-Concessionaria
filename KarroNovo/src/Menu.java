@@ -46,9 +46,9 @@ public class Menu {
         } else if (input == 2) {
             this.veiculos.add(new Moto());
         } else if (input == 3) {
-
+            this.veiculos.add(new Caminhao());
         } else if (input == 4) {
-
+            this.veiculos.add(new Bicicleta());
         } else if (input == 5) {
             return ;
         }

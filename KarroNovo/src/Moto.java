@@ -4,11 +4,6 @@ public class Moto extends Automotor{
     private boolean partidaEletrica;
     private Integer cilindradas;
 
-    public Moto(boolean partidaEletrica, Integer cilindradas, String tipoCombustivel, Integer codigo, String cor, String marca, String modelo, Double valor){
-        super(tipoCombustivel, codigo, cor, marca, modelo, valor);
-
-    }
-
     Scanner scanner = new Scanner(System.in);
 
     public Moto(){
@@ -50,6 +45,6 @@ public class Moto extends Automotor{
         }else{
             System.out.println(" Partida Elétrica?: Não");
         }
-        System.out.println(" Cilindradas: " + this.cilindradas + "\n");
+        System.out.println(" Cilindradas: " + this.cilindradas);
     }
 }

@@ -27,6 +27,6 @@ public class Carro extends Automotor{
     public void exibir(){
         System.out.println("--------Esse é um carro-------");
         super.exibir();
-        System.out.println(" Quantidade de Portas: " + quantidadePortas + "\n");
+        System.out.println(" Quantidade de Portas: " + this.quantidadePortas);
     }
 }
